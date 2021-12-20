@@ -1,0 +1,21 @@
+{
+  "name": "figma-extrect-svg",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "extract figma svg and transform to react icon",
+  "main": "index.js",
+  "scripts": {
+    "figma": "babel-node figma.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "got": "^12.0.0"
+  }
+}
